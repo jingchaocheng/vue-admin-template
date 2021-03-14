@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 import { components } from '@/utils/use-element'
 
+import '@/styles/index.scss' // global css
+
 const app = createApp(App)
 
 components.forEach(component => {
